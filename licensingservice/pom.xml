@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>bao.practice</groupId>
-	<artifactId>cloud</artifactId>
+	<artifactId>licensing-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cloud</name>
+	<name>licensing service</name>
 	<description>Licensing Service</description>
 	<properties>
 		<java.version>11</java.version>
