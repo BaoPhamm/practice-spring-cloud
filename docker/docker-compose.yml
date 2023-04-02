@@ -28,8 +28,8 @@ services:
     image: baopham/configserver:0.0.1-SNAPSHOT
     ports:
       - "8071:8071"
-#    environment:
-#      ENCRYPT_KEY: "fje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lo"
+    environment:
+      ENCRYPT_KEY: "secretkey"
     networks:
       backend:
         aliases:

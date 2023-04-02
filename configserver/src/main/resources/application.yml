@@ -1,6 +1,9 @@
 server:
   port: 8071
 
+encrypt:
+  key: secretkey
+
 spring:
   application:
     name: config-server
@@ -13,4 +16,7 @@ spring:
         composite:
           - type: native
             search-locations: classpath:/config
+#          - type: git
+#            uri: https://github.com/BaoPhamm/practice-spring-cloud.git
+#            searchPaths: licensingservice
         bootstrap: true
